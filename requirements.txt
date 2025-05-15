@@ -1,0 +1,8 @@
+semantic-router
+pandas
+pathlib
+chromadb
+groq
+dotenv
+
+sentence-transformers
