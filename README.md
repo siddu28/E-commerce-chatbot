@@ -12,8 +12,7 @@ This chatbot currently supports two intents:
 - **sql**: Activated when users request product listings or information based on real-time database queries. eg. Show me all nike shoes below Rs. 3000.
 
 
-![product screenshot](app/resources/product-ss.png)
-
+![Image](https://github.com/user-attachments/assets/266e706d-8879-4231-8dc0-18899f10146f)
 
 ## Architecture
 ![Image](https://github.com/user-attachments/assets/39464f96-84f0-45c9-a605-bb223f3f695b)
