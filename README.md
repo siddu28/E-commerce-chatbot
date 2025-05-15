@@ -16,8 +16,7 @@ This chatbot currently supports two intents:
 
 
 ## Architecture
-![architecture diagram of the e-commerce chatbot](app/resources/architecture-diagram.png)
-
+![Image](https://github.com/user-attachments/assets/39464f96-84f0-45c9-a605-bb223f3f695b)
 
 ### Set-up & Execution
 
