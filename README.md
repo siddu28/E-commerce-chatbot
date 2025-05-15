@@ -1,15 +1,16 @@
 # 💬 e-commerce chatbot (Gen AI RAG project using LLama3.3 and GROQ)
 
-This is POC of an intelligent chatbot tailored for an e-commerce platform, enabling seamless user interactions by accurately identifying the intent behind user queries. It leverages real-time access to the platform's database, allowing it to provide precise and up-to-date responses.
+This intelligent chatbot tailored for an e-commerce platform, enabling seamless user interactions by accurately identifying the intent behind user queries. It leverages real-time access to the platform's database, allowing it to provide precise and up-to-date responses.
 
-Folder structure
-1. app: All the code for chatbot
-2. web-scraping: Code to scrap e-commerce website 
 
-This chatbot currently supports two intents:
+This chatbot currently supports 3 intents:
 
-- **faq**: Triggered when users ask questions related to the platform's policies or general information. eg. Is online payment available?
-- **sql**: Activated when users request product listings or information based on real-time database queries. eg. Show me all nike shoes below Rs. 3000.
+- **faq**: Triggered when users ask questions related to the platform's policies or general information. eg. what is refund policy?
+- **sql**: Activated when users request product listings or information based on real-time database queries. eg. Show me all puma shoes below Rs. 5000.
+- **smalltalk**: Used to handle colloquial conversations with the user.
+* All of these are implemented using semantic-router which will able to classify the intent behind the user question like FAQ's,Product,general conversation..etc
+* You have to more number of Utterances or examples while defining the Routes for FAQ's ,product etc to improve performance on classifying the intent behind it.
+
 
 
 ![Image](https://github.com/user-attachments/assets/266e706d-8879-4231-8dc0-18899f10146f)
