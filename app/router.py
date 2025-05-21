@@ -152,7 +152,7 @@ expanded_routes = []
 for route in routes:
     for utt in route.utterances:
         utterances.append(utt)
-        expanded_routes.append(route.name)  # Use route name instead of the route object
+        expanded_routes.append(route.name)
 
 embeddings = encoder(utterances)
 
